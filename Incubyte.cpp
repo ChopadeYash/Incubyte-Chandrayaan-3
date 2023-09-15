@@ -59,13 +59,13 @@ public:
 };
 
 int main() {
-    // cout << "Enter initial coordinates (x, y, z)\n";
+    cout << "Enter initial coordinates (x, y, z)\n";
     int x, y, z;
-    // cout << "Enter x coordinate: ";
+    cout << "Enter x coordinate: ";
     cin >> x;
-    // cout << "Enter y coordinate: ";
+    cout << "Enter y coordinate: ";
     cin >> y;
-    // cout << "Enter z coordinate: ";
+    cout << "Enter z coordinate: ";
     cin >> z;
 
     char initialDirection;
@@ -74,7 +74,7 @@ int main() {
 
     SpaceProbe probe(x, y, z, initialDirection);
 
-    // cout << "Enter commands and enter '0' after inputting all commands to terminate input:\n";
+    cout << "Enter commands and enter '0' after inputting all commands to terminate input:\n";
 
     vector<char> commands;
     char command;
